@@ -24,7 +24,7 @@
                 
 
             }
-            .bodytext {
+            p {
                 font-size: 14px;
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             }
@@ -36,13 +36,15 @@
         </style>
     </head>
 <body>
-    <div id="container">
+    <div>
 <h1>Qi:The Life Force</h1>
 <img id="banner" src ="static/qibajn1.jpg" >
 
 <h2>About Qi</h2> 
-<p class="bodytext">Qi is the force that makes up and binds together all things in the universe. It is paradoxically, both everything and nothing.</p>
-<div style="text-align:center" >
+<p>Qi is the force that makes up and binds together all things in the universe. It is paradoxically, both everything and nothing.</p>
+<a href="{{ url_for('login') }}">Login Page</a><br>
+<a href="{{ url_for('register') }}">Register Page</a><br>
+<div>
 <button>Contact Us</button>
 <p>Copyright 2023, LifeForce</p>
 </div>
